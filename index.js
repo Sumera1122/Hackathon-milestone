@@ -13,6 +13,6 @@ form.addEventListener('submit', function (event) {
         resumeDisplayElement.innerHTML = resumeHTML;
     }
     else {
-        console.error('one or two missing');
+        console.error('error');
     }
 });
